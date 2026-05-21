@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #382e2e;
+    color: white;
+    padding: 40px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills, .formacoes, .cursos, .sobremim {
+    cursor: pointer;
+    width: 100%;
+    max-width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+}
+
+.presents {
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+    
+}
